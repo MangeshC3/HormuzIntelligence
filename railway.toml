@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "npx serve . --listen $PORT --single"
+healthcheckPath = "/"
